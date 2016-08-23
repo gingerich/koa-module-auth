@@ -1,0 +1,28 @@
+{
+  "name": "koa-module-auth",
+  "version": "0.0.0",
+  "description": "Secure API endpoints with JWT authentication",
+  "license": "MIT",
+  "author": "Marlin Gingerich <marlin.gingerich@gmail.com>",
+  "keywords": [
+    "koa",
+    "module",
+    "jwt",
+    "passport",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gingerich/koa-module-auth.git"
+  },
+  "dependencies": {
+    "joi": "^9.0.1",
+    "koa-passport": "^2.2.0",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
