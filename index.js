@@ -5,10 +5,6 @@ const Module = modules.Module
 exports = module.exports = modules.register(function (app, config) {
   return new AuthModule(app, config)
 })
-.use(join(__dirname, 'modules'), {
-  name: 'test',
-  path: '/random'
-})
 
 class AuthModule extends Module {
 
